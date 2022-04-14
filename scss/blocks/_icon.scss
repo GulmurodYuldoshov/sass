@@ -1,0 +1,11 @@
+.icon{
+    display: flex;
+    align-items: center;
+    &__link{
+        margin-right: 12px;
+        margin-top: 30px;
+    }
+    &__link:last-child{
+        margin-right: 33px;
+    }
+}

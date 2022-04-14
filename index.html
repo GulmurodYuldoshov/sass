@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dental</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <h1 class="visually-hidden">Dental hospital</h1>
+    <!-- header start -->
+    <header class="header">
+        <div class="container header__container">
+            <div class="header__top">
+                <a class="contact" href="tel:+998977340112">
+                    <p class="contact__text">
+                        Contact us
+                    </p>
+                    <p class="contact__num">+7(342)216-22-27</p>
+                </a>
+                <a class="header__logo" href="index.html">
+                    <img class="logo" src="img/header-logo.svg" width="103" height="56" alt="site logo">
+                </a>
+                <div class="time">
+                    <p class="time__now">Open now</p>
+                    <p class="time__text">Today we work until 19.00</p>
+                </div>
+            </div>
+            <div class="header__bottom">
+                <nav class="nav">
+                    <ul class="nav__list">
+                       <li class="nav__item">
+                           <a class="nav__link" href="#">Services</a>
+                       </li>
+                       <li class="nav__item">
+                        <a class="nav__link" href="#">Advantages</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="#">Team</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="#">Reviews</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="#">Contacts</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="icon">
+                    <a class="icon__link" href="">
+                        <img class="icon__img" src="img/wkontact.svg" alt="">
+                    </a>
+                    <a class="icon__link" href="">
+                        <img class="icon__img" src="img/instagram.svg" alt="">
+                    </a>
+                    <a class="icon__link" href="">
+                        <img class="icon__img" src="img/twitter.svg" alt="">
+                    </a>
+                   
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <!-- intro -->
+        <section class="intro">
+            <picture class="intro__img">
+                <source media="(max-width:375px)" srcset="img/bg_375px.png">
+                <source media="(max-width:1024px)" srcset="img/bg_1024px.png">
+                <source media="(max-width:1440px)" srcset="img/bg_1440px.png">
+                <img src="img/bg.png" alt="Flowers" style="width: 100%;">
+            </picture>
+            
+            <div class="container intro__container">
+               <p class="intro__text">Modern technology and expert-class dentists</p>
+               <h2 class="intro__title">get a brilliant smile 
+                for every day</h2>
+                <a class="intro__link" href="">get</a> 
+                <div class="intro__wrapper">
+                    <img src="img/btn_prev.png" alt="">
+                    <img class="intro__next" src="img/btn_next.png" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="info">
+            <div class="container info__container">
+                <div class="info__list">
+                    <img class="info__img" src="img/tish.png" alt="">
+                    <h3 class="info__title">Treatment</h3>
+                    <p class="info__text">All types of dental treatment are carried out using the most modern technologies.</p>
+                </div>
+                <div class="info__list">
+                    <img class="info__img" src="img/tishlar.png" alt="">
+                    <h3 class="info__title">Prosthetics</h3>
+                    <p class="info__text">We will help you find the most convenient and aesthetically attractive version of the prosthesis.</p>
+                </div>
+                <form class="info__forma">
+                    <label class="info__forma-label" >Appointment</label><br>
+                    <input class="input__name" required maxlength="12" minlength="4" type="text" placeholder="name"><br>
+                    <input  class="input__name" required maxlength="11"  type="number" placeholder="phone"><br>
+                    <button  class="info__btn" type="submit">Appointment</button><br>
+                    <div class="info__bottom">
+                        <label class="info__forma-text">I give my consent to the storage 
+                        and processing of personal data
+                        </label>
+                        <input class="checkbox"  required type="checkbox" name="vehicle2" value="Car"></div>
+                    </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,28 @@
+.time{
+    position: relative;
+    &::before{
+        display: inline-block;
+        width: 29px;
+        height: 29px;
+        content:"";
+        background-image: url(../../img/clock.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+       top: 50%;
+       left: -36px;
+       transform: translateY(-50%);
+       position: absolute;
+    }
+    &__now{
+        color: #00B007;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 16px;
+        margin-bottom: 3px;
+    }
+    &__text{
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 16px;
+    }
+}
